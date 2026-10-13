@@ -1,0 +1,8 @@
+// Move one item of a list from index `from` to index `to` (drag and drop, and keyboard moves).
+export function reorder(list, from, to) {
+  if (from === to || from < 0 || to < 0 || from >= list.length || to >= list.length) return list;
+  const next = [...list];
+  const [item] = next.splice(from, 1);
+  next.splice(to, 0, item);
+  return next;
+}

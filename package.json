@@ -1,0 +1,31 @@
+{
+  "name": "cs12-portal",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.1.0",
+    "@fontsource-variable/jetbrains-mono": "^5.1.0",
+    "@fontsource-variable/source-sans-3": "^5.1.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jsdom": "^24.1.1",
+    "pyodide": "0.26.4",
+    "sql.js": "1.10.3",
+    "vite": "^5.4.0",
+    "vitest": "^2.0.5"
+  }
+}
